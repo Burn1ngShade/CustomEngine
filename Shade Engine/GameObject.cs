@@ -37,31 +37,30 @@ public class GameObject
         transform.scale = Scale;
     }
 
-    public bool AddComponent(Component component)
+    public bool AddComponent<T>() where T : Component, new()
     {
         for (int i = 0; i < components.Count; i++)
         {
-            if (component.GetType() == components[i].GetType())
+            if (typeof(T) == components[i].GetType())
             {
-                Logger.LogLine($"Error: Component {component.GetType()} Is Already Connected To Object {name}", ConsoleColor.DarkRed);
+                Logger.LogLine($"Error: Component {typeof(T)} Is Already Connected To Object {name}", ConsoleColor.DarkRed);
                 return false;
             }
         }
-        components.Add(component);
-        Logger.LogLine($"Component {component.GetType()} Was Successfully Added To Object {name}", ConsoleColor.Green);
+        components.Add(new T());
+        Logger.LogLine($"Component {typeof(T)} Was Successfully Added To Object {name}", ConsoleColor.Green);
         return true;
     }
 
-    public void GetComponent<T>() where T : Component
+    public Component GetComponent<T>() where T : Component, new()
     {
         for (int i = 0; i < components.Count; i++)
         {
-            if (EqualityComparer<T>){
-                Logger.LogLine("YES IT WORKS");
-            }
-            else{
-                Logger.LogLine($"{components[i]}")
+            if (typeof(T) == components[i].GetType())
+            {
+                return components[i];
             }
         }
+        return new T();
     }
 }

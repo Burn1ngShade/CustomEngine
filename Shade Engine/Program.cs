@@ -5,10 +5,14 @@
         World world = new World("Test World");
         
         GameObject player = new GameObject("Player");
-        player.AddComponent(new Camera());
-        player.AddComponent(new Camera());
 
-        player.GetComponent<Camera>();
+        player.AddComponent<Cuboid>();
+        player.GetComponent<Cuboid>(); //what i can do rn
+        //player.GetComponent<Cuboid>().y; // what i need to be able to do
+        Console.WriteLine(player.GetComponent<Cuboid>());
+
+        Camera camera = (Camera)player.GetComponent<Camera>();
+
 
         world.AddObject(player);
     }
