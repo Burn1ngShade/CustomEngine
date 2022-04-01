@@ -1,0 +1,15 @@
+E:\Programing\Shade Engine\bin\Debug\net6.0\Shade Engine.exe
+E:\Programing\Shade Engine\bin\Debug\net6.0\Shade Engine.deps.json
+E:\Programing\Shade Engine\bin\Debug\net6.0\Shade Engine.runtimeconfig.json
+E:\Programing\Shade Engine\bin\Debug\net6.0\Shade Engine.dll
+E:\Programing\Shade Engine\bin\Debug\net6.0\ref\Shade Engine.dll
+E:\Programing\Shade Engine\bin\Debug\net6.0\Shade Engine.pdb
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.csproj.AssemblyReference.cache
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.GeneratedMSBuildEditorConfig.editorconfig
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.AssemblyInfoInputs.cache
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.AssemblyInfo.cs
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.csproj.CoreCompileInputs.cache
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.dll
+E:\Programing\Shade Engine\obj\Debug\net6.0\ref\Shade Engine.dll
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.pdb
+E:\Programing\Shade Engine\obj\Debug\net6.0\Shade Engine.genruntimeconfig.cache
